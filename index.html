@@ -10,6 +10,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Smooth Scroll jQuery -->
     <script>
+        /* vai pro topo ao recarregar a page 
+        window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+        } */
+    /* SCROLL */
     $(document).ready(function(){
         $("a").on('click', function(event) {
           if (this.hash !== "") {
@@ -23,7 +28,7 @@
          
               window.location.hash = hash;
             });
-          } // End if
+          }
         });
       });
       </script>
@@ -102,9 +107,11 @@
         <!-- Seção "Sobre" -->
         <section id="sobre">
             <div class="about">
+                
                 <h1>Sobre mim</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam molestias illum adipisci, fugit veniam doloremque quod magnam itaque similique. Dolores, eveniet id! Itaque dolore id nostrum delectus eveniet. Nisi, molestiae?</p>
             </div>
+            
         </section>
 
         <!-- Seção "Contato" -->
