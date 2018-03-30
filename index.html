@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Smooth Scroll jQuery -->
+    <script>
+    $(document).ready(function(){
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+      
+            var hash = this.hash;
+            
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 1000, function(){
+         
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
 </head>
 <body>
     <!-- HEADER -->
