@@ -273,19 +273,37 @@ footer li {
 
 
 /* FOOTER ICONS */
+.top-btn {
+    padding: 20px;
+}
+
+.fa-angle-up {
+    width: 50px !important;
+    height: 50px !important;
+    color: lightblue;
+}
+
+.fa-angle-up:hover {
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+/* Contact icons */
+
+.fa-envelope {
+    width: 66px !important;
+    height: 66px !important;
+    color: lightblue;
+}
+
+.fa-envelope:hover {
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
 .fa-facebook-square {
-    width: 66px !important;
-    height: 66px !important;
-    color: lightblue;
-}
-
-.fa-linkedin {
-    width: 66px !important;
-    height: 66px !important;
-    color: lightblue;
-}
-
-.fa-github-square {
     width: 66px !important;
     height: 66px !important;
     color: lightblue;
@@ -297,10 +315,22 @@ footer li {
     transform: scale(1.2);
 }
 
+.fa-linkedin {
+    width: 66px !important;
+    height: 66px !important;
+    color: lightblue;
+}
+
 .fa-linkedin:hover {
     color: white;
     transition: 0.5s;
     transform: scale(1.2);
+}
+
+.fa-github-square {
+    width: 66px !important;
+    height: 66px !important;
+    color: lightblue;
 }
 
 .fa-github-square:hover {
