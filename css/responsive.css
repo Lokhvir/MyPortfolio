@@ -267,12 +267,16 @@ and (max-width: 820px){
         margin-bottom: 100px;
     }
     /* sobre */
+
+    #sobre {
+        height: 700px;
+        background-attachment: scroll;
+    }
     .about {
         margin: auto;
         display: inline-block;
-        width: 700px;
-        padding: 0 80px;
-        font-size: 20px;
+        width: 600px;
+        padding: 0 180px;
         text-align: justify;
     }
 
@@ -283,43 +287,44 @@ and (max-width: 820px){
 
     .content {
         display: inline-block;
-        width: 700px;
+        width: 600px;
         padding: 0 80px;
         text-align: justify;
     }
 
     .content p {
         padding: 0 80px;
-        font-size: 16px;
+        font-size: 1.2rem;
     }
 
     .border-left {
-        width: 600px;
+        width: 500px;
         position: absolute;
-        height: 290px;
+        height: 280px;
         display: inline-block;
     }
 
     .border-right p {
-        padding: 140px 80px;
+        padding: 210px 80px 0 80px;
     }
     
     .border-right {
-        width: 600px;
-        
+        width: 500px;
         position: absolute;
-        height: 290px;
+        height: 280px;
         display: inline-block;
     }
 
     .border-left:after {
         content: '';
         position: absolute;
-        bottom: -25%;
-        left: 8%;
+        right: 20%;
+        left: 9%;
         top: -10%;
-        width: 14%;
-        border-bottom: 5px solid rgb(238, 202, 0);
+        width: 80%;
+        height: 30%;
+        border-bottom: none;    
+        border-right: 5px solid rgb(238, 202, 0);
         border-left: 5px solid rgb(238, 202, 0);
         border-top: 5px solid rgb(238, 202, 0);
         border-radius: 5px;
@@ -328,13 +333,15 @@ and (max-width: 820px){
     .border-right:after {
         content: '';
         position: absolute;
-        bottom: -25%;
-        right: 8%;
-        top: -10%;
-        width: 14%;
-        border-bottom: 5px solid rgb(238, 202, 0);
+        left: 9%;
+        bottom: 0;
+        margin: 410px 0;
+        width: 80%;
+        height: 30%;
+        border-top: none;
+        border-bottom: 5px solid rgb(238, 202, 0);    
         border-right: 5px solid rgb(238, 202, 0);
-        border-top: 5px solid rgb(238, 202, 0);
+        border-left: 5px solid rgb(238, 202, 0);
         border-radius: 5px;
     }
 
@@ -343,9 +350,9 @@ and (max-width: 820px){
     }
 }
 
-/* Smartphone */
+/* Small Tablet */
 @media only screen 
-and (max-width: 550px){
+and (max-width: 600px){
     /* GLOBAL */
     .desktop {
         display: none;
@@ -414,12 +421,77 @@ and (max-width: 550px){
 
     /* Sobre */
     #sobre {
-        background-size: cover;
-        padding: 30px 0px;
-        opacity: 0.8;
-        text-align: center;
-        color: #ffffff;
-        text-shadow: 2px 2px 4px black;
+        height: 800px;
+    }
+
+    .about {
+        display: inline-block;
+        width: 450px;
+        padding: 0 120px;
+        text-align: justify;
+    }
+
+    .about h1 {
+        padding: 50px 120px 20px 80px;
+        font-size: 40px;
+    }
+
+    .content {
+        width: 450px;
+        padding: 0 80px;
+    }
+
+    .content p {
+        padding: 0 60px;
+        font-size: 1rem;
+    }
+
+    .border-left {
+        width: 350px;
+        position: absolute;
+        height: 280px;
+        display: inline-block;
+    }
+
+    .border-right p {
+        padding-top: 230px;
+    }
+    
+    .border-right {
+        width: 350px;
+        position: absolute;
+        height: 280px;
+        display: inline-block;
+    }
+
+    .border-left:after {
+        content: '';
+        position: absolute;
+        right: 20%;
+        left: 9%;
+        top: -10%;
+        width: 80%;
+        height: 30%;
+        border-bottom: none;    
+        border-right: 5px solid rgb(238, 202, 0);
+        border-left: 5px solid rgb(238, 202, 0);
+        border-top: 5px solid rgb(238, 202, 0);
+        border-radius: 5px;
+    }
+    
+    .border-right:after {
+        content: '';
+        position: absolute;
+        left: 9%;
+        bottom: 0;
+        margin-top: 450px;
+        width: 80%;
+        height: 30%;
+        border-top: none;
+        border-bottom: 5px solid rgb(238, 202, 0);    
+        border-right: 5px solid rgb(238, 202, 0);
+        border-left: 5px solid rgb(238, 202, 0);
+        border-radius: 5px;
     }
 
     /* footer */
@@ -513,17 +585,63 @@ and (max-width: 450px) {
     .soon {
         padding: 50px 0;
     }
+
     /* Sobre */
     #sobre {
-        background-size: cover;
-        padding: 30px 0px;
-        opacity: 0.8;
-        text-align: center;
-        color: #ffffff;
-        text-shadow: 2px 2px 4px black;
+        height: 800px;
     }
 
     .about {
+        width: 400px;
+        padding: 0 60px;
+    }
+
+    .about h1 {
+        padding: 50px 120px 30px 80px;
+        font-size: 42px;
+    }
+
+    .content {
+        width: 400px;
+        padding: 0 60px;
+    }
+
+    .content p {
         padding: 0;
+        font-size: 1.1rem;
+    }
+
+    .border-left {
+        width: 300px;
+        height: 280px;
+    }
+
+    .border-right p {
+        padding-top: 220px;
+    }
+    
+    .border-right {
+        width: 300px;
+        height: 280px;
+    }
+
+    .border-left:after {
+        left: -7%;
+        top: -10%;
+        width: 108%;
+        border-right: 4px solid rgb(238, 202, 0);
+        border-left: 4px solid rgb(238, 202, 0);
+        border-top: 4px solid rgb(238, 202, 0);
+        border-radius: 4px;
+    }
+    
+    .border-right:after {
+        left: -7%;
+        margin-top: 420px;
+        width: 108%;
+        border-bottom: 4px solid rgb(238, 202, 0);    
+        border-right: 4px solid rgb(238, 202, 0);
+        border-left: 4px solid rgb(238, 202, 0);
+        border-radius: 4px;
     }
 }
