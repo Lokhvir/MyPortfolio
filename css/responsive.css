@@ -560,6 +560,13 @@ and (max-width: 450px) {
         width: 100%;
     }
 
+    .box img:hover {
+        width: 100%;
+        box-shadow: none;
+        transition: none;
+        cursor: pointer;
+    }
+
     .box-1 {
         width: 100%;
         padding: 0px 0 0 0 ;
