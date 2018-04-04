@@ -423,6 +423,7 @@ and (max-width: 450px) {
     /* Sobre */
     #sobre {
         height: 750px;
+        background-attachment: scroll;
     }
 
     .about {
