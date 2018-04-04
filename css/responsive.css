@@ -1,6 +1,7 @@
 /* Laptop */
 @media only screen 
-and (max-width: 1500px){
+and (max-height: 800px)
+and (max-width: 1600px){
     /* HEADER */
     header {
         padding: 0;
@@ -13,10 +14,10 @@ and (max-width: 1500px){
     }
 
     .container-b {
-        padding: 35vh 0;
+        padding: 25vh 0;
     }
 
-    /* Projetos*/
+    /* Projetos */
     #projetos {
         width: 970px;
     }
@@ -25,56 +26,19 @@ and (max-width: 1500px){
         transform: scale(1.1);
     }
 
-    /* SOBRE */
-    .about {
-        width: 1000px;
-    }
-
-    .about h1 {
-        padding: 50px 120px 20px 100px;
-        font-size: 44px;
-    }
-
-    .content {
-        width: 1000px;
-    }
-
-    .content p {
-        padding: 0px 100px;
-        font-size: 18px;
-    }
-
-    .border-left {
-        width: 900px;
-    }
-    
-    .border-right {
-        width: 900px;
-    }
-
-    .border-left:after {
-        border-bottom: 7px solid rgb(238, 202, 0);
-        border-left: 7px solid rgb(238, 202, 0);
-        border-top: 7px solid rgb(238, 202, 0);
-        border-radius: 7px;
-    }
-    
-    .border-right:after {
-        border-bottom: 7px solid rgb(238, 202, 0);
-        border-right: 7px solid rgb(238, 202, 0);
-        border-top: 7px solid rgb(238, 202, 0);
-        border-radius: 7px;
+    .soon {
+        padding: 50px;
     }
 }
 
 /* Tablet */
 
-/* ADICIOANAR SLIDESHOW NO PROJETOS */
+/* ADICIONAR SLIDESHOW NO PROJETOS */
 @media only screen
 and (max-width: 1024px){
     /* SHOWCASE */
     .container-b {
-        padding: 35vh 0;
+        padding: 20vh 0;
     }
 
     /* Projetos */
@@ -91,6 +55,10 @@ and (max-width: 1024px){
         height: 700px;
     }
 
+    .box-img {
+        min-height: 341px;
+    }
+
     .box img:hover {
         transform: none;
     }
@@ -100,6 +68,7 @@ and (max-width: 1024px){
         padding: 50px 0;
         height: 150px;
     }
+    
     .box-img-1 {
         padding: 50px 0;
         width: 100%;
@@ -116,86 +85,39 @@ and (max-width: 1024px){
     }
 
     /* Sobre */
-
     #sobre {
         height: 600px;
     }
 
     .about {
-        width: 800px;
-        padding: 0 80px;
-        font-size: 20px;
+        width: 800px;  
     }
-
-    .about h1 {
-        padding: 50px 120px 20px 80px;
-        font-size: 42px;
-    }
-
+    
     .content {
-        display: inline-block;
         width: 800px;
-        padding: 0px 80px;
-        text-align: justify;
-    }
-
-    .content p {
-        padding: 0px 90px;
-        font-size: 18px;
-    }
-
-    .border-left {
-        width: 700px;
-        position: relative;
-        height: 200px;
+        height: 400px;
     }
     
-    .border-right {
-        width: 700px;
-        position: relative;
-        height: 200px;
-    }
-
-    .border-left p {
-        width: 100%;
-        float: none;
-        padding: 15px 120px;
-        font-size: 20px;
-        height: 290px;
+    .p-left {
+        padding-left: 100px;
     }
     
-    .border-right p {
-        float: none;
-        width: 100%;
-        padding: 15px 120px;
-        font-size: 20px;
-    }
-
-    .border-left:after {
-        content: '';
-        position: absolute;
-        bottom: -25%;
-        left: 8%;
-        top: -10%;
-        width: 14%;
-        border-bottom: 6px solid rgb(238, 202, 0);
-        border-left: 6px solid rgb(238, 202, 0);
-        border-top: 6px solid rgb(238, 202, 0);
-        border-radius: 6px;
-        height: 400px; 
+    .p-right {
+        padding-right: 100px;
     }
     
-    .border-right:after {
-        content: '';
-        position: absolute;
-        bottom: -25%;
-        right: 8%;
-        top: -10%;
-        width: 14%;
-        border-bottom: 6px solid rgb(238, 202, 0);
-        border-right: 6px solid rgb(238, 202, 0);
-        border-top: 6x solid rgb(238, 202, 0);
-        border-radius: 6px;
+    .content:before {
+        border-bottom: 7px solid rgb(238, 202, 0);
+        border-left: 7px solid rgb(238, 202, 0);
+        border-top: 7px solid rgb(238, 202, 0);
+        border-radius: 7px;
+    }
+    
+    .content:after {
+        border-bottom: 7px solid rgb(238, 202, 0);
+        border-right: 7px solid rgb(238, 202, 0);
+        border-top: 7px solid rgb(238, 202, 0);
+        border-radius: 7px;
     }
 
     /* FOOTER */
@@ -204,6 +126,7 @@ and (max-width: 1024px){
     }
 }
 
+/* Small Tablet */
 @media only screen 
 and (max-width: 820px){
     /* Showcase */
@@ -213,11 +136,7 @@ and (max-width: 820px){
     }
 
     .container-b {
-        padding: 22vh 0;
-    }
-
-    .container-b a {
-        padding: 50px;
+        padding: 10vh 0;
     }
 
     .fa-angle-down {
@@ -233,9 +152,8 @@ and (max-width: 820px){
 
     .box {
         width: 520px;
-        padding: 0;
-        margin: 0 auto;
-        height: 250px;
+        height: 600px;
+        padding: 40px 0;
     }
 
     .box img:hover {
@@ -245,78 +163,50 @@ and (max-width: 820px){
 
     .box-1 {
         width: 100%;
-        padding: 20px 0 0 0 ;
-        margin-top: 0;
-        height: 200px;
+        height: 150px;
     }
 
     .box-2 {
         width: 100%;
         padding: 20px 0 0 0 ;
         margin-top: 30px;
-        height: 200px;
+        height: 150px;
     }
 
     .box-img-2 {
         width: 100%;
         margin-bottom: 100px;
     }
-    /* sobre */
 
+    /* sobre */
     #sobre {
-        height: 700px;
-        background-attachment: scroll;
+        height: 600px;
     }
+
     .about {
-        margin: auto;
-        display: inline-block;
-        width: 600px;
-        padding: 0 180px;
-        text-align: justify;
+        width: 450px;
+        padding: 0;
+        text-align: center;
     }
 
     .about h1 {
-        padding: 50px 120px 20px 80px;
-        font-size: 42px;
-    }
-
-    .content {
-        display: inline-block;
-        width: 600px;
-        padding: 0 80px;
-        text-align: justify;
-    }
-
-    .content p {
-        padding: 0 80px;
-        font-size: 1.2rem;
-    }
-
-    .border-left {
-        width: 500px;
-        position: absolute;
-        height: 280px;
-        display: inline-block;
-    }
-
-    .border-right p {
-        padding: 210px 80px 0 80px;
+        padding: 30px 0 10px 0;
+        font-size: 40px;
     }
     
-    .border-right {
-        width: 500px;
-        position: absolute;
-        height: 280px;
-        display: inline-block;
+    .content {
+        width: 450px;
+        height: 400px;
     }
-
-    .border-left:after {
-        content: '';
-        position: absolute;
-        right: 20%;
-        left: 9%;
-        top: -10%;
-        width: 80%;
+    
+    .content p {
+        width: 100%;
+        padding: 30px;
+    }
+    
+    .content:before {
+        left: 0;
+        width: 100%;
         height: 30%;
         border-bottom: none;    
         border-right: 5px solid rgb(238, 202, 0);
@@ -325,14 +215,11 @@ and (max-width: 820px){
         border-radius: 5px;
     }
     
-    .border-right:after {
-        content: '';
-        position: absolute;
-        left: 9%;
-        bottom: 0;
-        margin: 410px 0;
-        width: 80%;
+    .content:after {
+        left: 0;
+        width: 100%;
         height: 30%;
+        margin-top: 320px;
         border-top: none;
         border-bottom: 5px solid rgb(238, 202, 0);    
         border-right: 5px solid rgb(238, 202, 0);
@@ -347,7 +234,6 @@ and (max-width: 820px){
 
 /* Phablet */
 @media only screen 
-and (max-height: 730px)
 and (max-width: 600px){
     /* GLOBAL */
     .desktop {
@@ -388,17 +274,7 @@ and (max-width: 600px){
 
     .box {
         width: 400px;
-        padding: 0;
-        margin: 40px auto;
-        height: 580px;
-    }
-
-    .box img {
-        width: 90%;
-    }
-
-    .box img:hover {
-        transform: none;
+        height: 700px;
     }
 
     .box-1 {
@@ -419,59 +295,29 @@ and (max-width: 600px){
         margin-bottom: 100px;
     }
 
-    /* Sobre */
-    #sobre {
-        height: 800px;
-    }
-
+    /* Sobre */    
     .about {
-        display: inline-block;
-        width: 450px;
-        padding: 0 120px;
-        text-align: justify;
+        width: 400px;
+        padding: 0;
+        text-align: center;
     }
 
     .about h1 {
-        padding: 50px 120px 20px 80px;
+        padding: 30px 0 10px 0;
         font-size: 40px;
     }
-
+    
     .content {
-        width: 450px;
-        padding: 0 80px;
-    }
-
-    .content p {
-        padding: 0 60px;
-        font-size: 1rem;
-    }
-
-    .border-left {
-        width: 350px;
-        position: absolute;
-        height: 280px;
-        display: inline-block;
-    }
-
-    .border-right p {
-        padding-top: 230px;
+        width: 400px;
+        height: 400px;
     }
     
-    .border-right {
-        width: 350px;
-        position: absolute;
-        height: 280px;
-        display: inline-block;
+    .content p {
+        width: 100%;
+        padding: 30px;
     }
-
-    .border-left:after {
-        content: '';
-        position: absolute;
-        right: 20%;
-        left: 9%;
-        top: -10%;
-        width: 80%;
-        height: 30%;
+    
+    .content:before {
         border-bottom: none;    
         border-right: 5px solid rgb(238, 202, 0);
         border-left: 5px solid rgb(238, 202, 0);
@@ -479,14 +325,8 @@ and (max-width: 600px){
         border-radius: 5px;
     }
     
-    .border-right:after {
-        content: '';
-        position: absolute;
-        left: 9%;
-        bottom: 0;
-        margin-top: 450px;
-        width: 80%;
-        height: 30%;
+    .content:after {
+        margin-top: 350px;
         border-top: none;
         border-bottom: 5px solid rgb(238, 202, 0);    
         border-right: 5px solid rgb(238, 202, 0);
@@ -543,41 +383,26 @@ and (max-width: 450px) {
 
     /* Projetos */
     #projetos {
-        width: 280px;
+        width: 250px;
     }
+    
     .row {
-        padding: 50px 0px;
-        
+        padding: 50px 0px;    
     }
 
     .box {
-        width: 280px;
-        padding: 0;
-        margin: 40px auto;
-        height: 500px;
+        width: 250px;
+        height: 620px;
     }
 
-    .box img {
-        width: 100%;
-    }
-
-    .box img:hover {
-        width: 100%;
-        box-shadow: none;
-        transition: none;
-        transform: none;
-        cursor: pointer;
+    .box p {
+        margin-top: 15px;
+        font-size: 18px;
     }
 
     .box-1 {
         width: 100%;
-        padding: 0px 0 0 0 ;
-        margin-top: 0;
-        height: 200px;
-    }
-
-    .box-img-1 {
-        padding-top: 30px;
+        height: 260px;
     }
 
     .box-2 {
@@ -597,57 +422,42 @@ and (max-width: 450px) {
 
     /* Sobre */
     #sobre {
-        height: 800px;
+        height: 750px;
     }
 
     .about {
-        width: 400px;
-        padding: 0 60px;
+        width: 300px;
+        padding: 0;
+        text-align: center;
     }
 
     .about h1 {
-        padding: 50px 120px 30px 80px;
-        font-size: 42px;
-    }
-
-    .content {
-        width: 400px;
-        padding: 0 60px;
-    }
-
-    .content p {
-        padding: 0;
-        font-size: 1.1rem;
-    }
-
-    .border-left {
-        width: 300px;
-        height: 280px;
-    }
-
-    .border-right p {
-        padding-top: 220px;
+        padding: 30px 0 10px 0;
+        font-size: 40px;
     }
     
-    .border-right {
+    .content {
         width: 300px;
-        height: 280px;
+        height: 400px;
     }
-
-    .border-left:after {
-        left: -7%;
-        top: -10%;
-        width: 108%;
+    
+    .content p {
+        width: 100%;
+        padding: 30px;
+        font-size: 18px;
+    }
+    
+    .content:before {
+        border-bottom: none;    
         border-right: 4px solid rgb(238, 202, 0);
         border-left: 4px solid rgb(238, 202, 0);
         border-top: 4px solid rgb(238, 202, 0);
         border-radius: 4px;
     }
     
-    .border-right:after {
-        left: -7%;
-        margin-top: 420px;
-        width: 108%;
+    .content:after {
+        margin-top: 400px;
+        border-top: none;
         border-bottom: 4px solid rgb(238, 202, 0);    
         border-right: 4px solid rgb(238, 202, 0);
         border-left: 4px solid rgb(238, 202, 0);

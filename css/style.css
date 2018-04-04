@@ -138,10 +138,6 @@ main {
     height: 290px;
 }
 
-.box-img-1 img {
-    width: 99%;
-}
-
 /* box 2*/
 .box-2 {
     width: 50%;
@@ -153,11 +149,6 @@ main {
 .box-img-2{
     width: 50%;
     float: left;
-
-}
-
-.box-img-2 img {
-    width: 99%;
 }
 
 .box-border {
