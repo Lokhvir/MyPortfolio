@@ -53,27 +53,6 @@ header {
     height: 100vh;
 }
 
-/* Idioma, não consegui arrumar no github
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    min-width: 140px;
-    padding: 10px 0;
-    position: absolute;
-    margin-left: -31px;
-}
-
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-*/
-
-
-
 /* Showcase intro */
 .showcase {
     width: 100%;
@@ -100,7 +79,6 @@ header {
 
 /* Main area */
 main {
-    width: 100%;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     background: #d84242;
@@ -109,12 +87,11 @@ main {
 #projetos {
     display: inline-block;
     width: 1100px;
-    text-align: center;
 }
 
 .row {
     padding: 45px 0px;
-    display: inline-block;
+    display: inherit;
     height: 120px;
     width: 250px;
     border-bottom: 1px solid #fff;
@@ -122,9 +99,8 @@ main {
 
 .row h1 {
     font-size: 38px;
-    width: 300px;
-    display: inline;
 }
+
 /* BOX PROJETOS */
 .box {
     height: 400px;
@@ -207,49 +183,48 @@ main {
 }
 
 .about {
-    margin: auto;
     display: inline-block;
-    width: 1300px;
-    padding: 0px 80px;
-    font-size: 20px;
+    width: 1000px;  
+    padding-top: 50px;
     text-align: justify;
 }
 
 .about h1 {
-    padding: 50px 120px 20px 120px;
+    padding-left: 120px;
     font-size: 48px;
 }
 
 .content {
-    display: inline-block;
-    width: 1300px;
-    padding: 0px 80px;
-    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    height: 300px;
 }
 
 .content p {
-    padding: 0px 120px;
-    font-size: 20px;
+    text-align: justify;
+    padding-top: 40px;
+    width: 45%;
+    display: inline-block;
 }
 
-.border-left {
-    width: 1100px;
-    position: absolute;
-    height: 290px;
+.p-left {
+    float: left;
+    padding-left: 120px;
 }
 
-.border-right {
-    width: 1100px;
-    position: absolute;
-    height: 290px;
+.p-right {
+    float: right;
+    padding-right: 120px;
 }
 
-.border-left:after {
+.content:before {
     content: '';
     position: absolute;
-    bottom: 5%;
+    bottom: 0%;
     left: 8%;
-    top: -10%;
+    top: 0;
     width: 12%;
     border-bottom: 8px solid rgb(238, 202, 0);
     border-left: 8px solid rgb(238, 202, 0);
@@ -257,12 +232,12 @@ main {
     border-radius: 8px;
 }
 
-.border-right:after {
+.content:after {
     content: '';
     position: absolute;
-    bottom: 5%;
+    bottom: 0%;
     right: 8%;
-    top: -10%;
+    top: 0;
     width: 12%;
     border-bottom: 8px solid rgb(238, 202, 0);
     border-right: 8px solid rgb(238, 202, 0);
@@ -271,7 +246,6 @@ main {
 }
 
 /* FOOTER*/
-
 footer {
     background-color: rgb(32, 32, 32);
     color: white;
@@ -296,7 +270,7 @@ footer li {
 
 /* FOOTER ICONS */
 .top-btn {
-    padding: 20px;
+    padding: 30px 0 30px 8px;
 }
 
 .fa-angle-up {
