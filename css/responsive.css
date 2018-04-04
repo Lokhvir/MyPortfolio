@@ -370,6 +370,7 @@ and (max-width: 450px) {
     header {
         height: 740px;
         padding: 0;
+        width: 450px;
     }
     .showcase {
         position: absolute;
