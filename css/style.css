@@ -43,7 +43,7 @@ i {
 /* HEADER */
 header {
     width: 100%;
-    padding: 15px 0px;
+    padding: 0;
     font-size: 18px;
     background-image: url(../img/bg-5.jpg);
     background-repeat: no-repeat;
@@ -60,11 +60,12 @@ header {
     color: white;
     font-size: 48px;
     text-align: center;
-    padding: 40vh 0;
+    position: absolute;
+    top: 40%;
 }
 
 .container-b {
-    padding: 30vh 0;
+    margin-top: 250px;
 }
 
 .fa-angle-down {

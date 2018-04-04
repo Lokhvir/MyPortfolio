@@ -1,19 +1,21 @@
+/* TV */
+@media TV
+and (max-width: 1200px){
+    .showcase {
+        background: #000;
+    }
+    .container-b {
+        margin-top: 250px;
+    }
+}
+
+
 /* Laptop */
 @media only screen 
 and (max-width: 1600px){
     /* HEADER */
-    header {
-        padding: 0;
-        margin: 0;
-        background-size: cover;
-    }
-
     .showcase {
         font-size: 40px;
-    }
-
-    .container-b {
-        padding: 25vh 0;
     }
 
     /* Projetos */
