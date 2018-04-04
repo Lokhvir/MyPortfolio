@@ -1,6 +1,5 @@
 /* Laptop */
 @media only screen 
-and (max-height: 800px)
 and (max-width: 1600px){
     /* HEADER */
     header {
@@ -32,6 +31,12 @@ and (max-width: 1600px){
 }
 
 /* Tablet */
+@media only screen 
+and (max-width: 1400px){
+    #sobre {
+        background-attachment: scroll;
+    }
+}
 
 /* ADICIONAR SLIDESHOW NO PROJETOS */
 @media only screen
@@ -423,7 +428,6 @@ and (max-width: 450px) {
     /* Sobre */
     #sobre {
         height: 750px;
-        background-attachment: scroll;
     }
 
     .about {
