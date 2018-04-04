@@ -365,7 +365,7 @@ and (max-width: 600px){
 /* Smartphone */
 @media only screen 
 and (max-height: 740px)
-and (max-width: 450px) {
+and (max-width: 480px) {
     /* Header */
     header {
         height: 740px;
@@ -381,6 +381,7 @@ and (max-width: 450px) {
     .container-b {
         margin-top: 200px;
         padding: 0; 
+        background-color: #000;
     }
 
     .container-b a {
