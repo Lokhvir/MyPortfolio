@@ -482,6 +482,7 @@ and (max-height: 667px){
     header {
         height: 667px;
         position: relative;
+        background: #000;
         padding: 0;
     }
     .showcase {
@@ -501,7 +502,6 @@ and (max-height: 640px){
     header {
         height: 640px;
         position: relative;
-        background: #000;
         padding: 0;
     }
     .showcase {
