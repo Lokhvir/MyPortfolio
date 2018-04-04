@@ -1,6 +1,5 @@
 /* TV */
-@media TV
-and (max-width: 1200px){
+@media only screen and (min-height: 1000px){
     .showcase {
         background: #000;
     }
@@ -16,6 +15,10 @@ and (max-width: 1600px){
     /* HEADER */
     .showcase {
         font-size: 40px;
+    }
+
+    .container-b {
+        margin-top: 200px;
     }
 
     /* Projetos */
@@ -45,7 +48,7 @@ and (max-width: 1400px){
 and (max-width: 1024px){
     /* SHOWCASE */
     .container-b {
-        padding: 20vh 0;
+        margin-top: 200px;
     }
 
     /* Projetos */
@@ -139,11 +142,10 @@ and (max-width: 820px){
     /* Showcase */
     .showcase {
         font-size: 38px;
-        padding: 40vh 10vw;
     }
 
     .container-b {
-        padding: 10vh 0;
+        margin-top: 200px;
     }
 
     .fa-angle-down {
@@ -254,11 +256,10 @@ and (max-width: 600px){
     /* Header */
     .showcase {
         font-size: 28px;
-        padding: 40vh 0;
     }
 
     .container-b {
-        padding: 15vh 0;
+        
     }
 
     .container-b a {
