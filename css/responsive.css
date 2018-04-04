@@ -1,10 +1,7 @@
 /* TV */
 @media only screen and (min-height: 700px){
-    .showcase {
-        background: #000;
-    }
     .container-b {
-        margin-top: 250px;
+        margin-top: 200px;
     }
 }
 
