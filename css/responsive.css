@@ -35,6 +35,11 @@ and (max-width: 1600px){
 /* Tablet */
 @media only screen 
 and (max-width: 1400px){
+
+    header {
+        background-attachment: scroll;
+    }
+
     #sobre {
         background-attachment: scroll;
     }
