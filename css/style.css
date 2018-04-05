@@ -58,7 +58,7 @@ header {
 /* Showcase intro */
 .showcase {
     width: 100%;
-    text-shadow: 1px 3px 3px black;
+    text-shadow: 2px 4px 6px black;
     color: white;
     font-size: 48px;
     text-align: center;
@@ -167,9 +167,10 @@ main {
     height: 500px;
     background-color: rgb(97, 97, 97);
     color: #fff;
-    text-shadow: 2px 1px 3px rgb(0, 0, 0);
-    background-image: url('../img/bg-2.jpg');
+    text-shadow: 3px 3px 4px #000;
+    font-weight: 600;
     overflow-x: hidden;
+    background-image: url('../img/bg-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
