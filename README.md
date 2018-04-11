@@ -8,5 +8,7 @@ Also, I'ts an amateur portfolio for now but it's what I got.
 Thing on my to do list:
 
 1 - Add my images of my cats as a dropdown menu style when hovering over their names.
+
 2 - Fix the id targeting of anchors
+
 3 - Add new projects and change the layout.
