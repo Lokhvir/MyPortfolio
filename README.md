@@ -11,4 +11,6 @@ Thing on my to do list:
 
 2 - Fix the id targeting of anchors
 
-3 - Add new projects and change the layout.
+3 - Make a english version of it with a menu button to change language.
+
+4 - Add new projects and change the layout.
