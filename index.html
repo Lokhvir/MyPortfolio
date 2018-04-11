@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Rafael Tonon | Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet"> 
+
+    <!-- Font awesome & jQuery-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Smooth Scroll jQuery -->
     <script>
-        /* vai pro topo ao recarregar a page 
-        window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-        } */
-    /* SCROLL */
+    // Smooth SCROLL ANIMATION
     $(document).ready(function(){
         $("a").on('click', function(event) {
           if (this.hash !== "") {
@@ -36,11 +36,10 @@
 <body>
     <!-- HEADER -->
     <header id="top">
-        <!-- NAV
         <!-- Texto showcase-->
         <section class="showcase">
             <div class="container">
-                <h1>Rafael Silva</h1>
+                <h1>Rafael Tonon</h1>
                 <p>Estudante Front-End</p>
                 <div class="container-b">
                         <a href="#projetos"><i class="fas fa-angle-down fa-2x"></i></a>
@@ -59,7 +58,7 @@
                 <h1>Projetos</h1>
             </div>
 
-            <!-- Área do primeiro projeto -->
+            <!-- Primeiro projeto -->
             <section class="box box-border">
                 <div class="box-1">
                     <h3>Conquer Clone</h3>
@@ -71,7 +70,7 @@
                 </div>
             </section>
 
-            <!-- Área do segundo projeto -->
+            <!-- Segundo projeto -->
             <section class="box">
                 <div class="box-2">
                     <h3>Google Clone</h3>
@@ -82,28 +81,35 @@
                     <a class="smart" href="https://lokhvir.github.io/Google-clone/" target="_blank"><img src="img/google-smart.png" alt=""></a>
                 </div>
             </section>
+
+            <!-- Em breve -->
             <div class="soon">
                     <h1>Mais projetos em breve :)</h1>
             </div>
         </section>
 
-        <!-- Seção "Sobre" -->
+        <!-- Sobre mim -->
         <section id="sobre">
             <div class="about">
                 <h1>Sobre</h1>
             </div>
+
+            <!-- Classe "content" usada para fazer os colchetes em volta do parágrafo -->
             <div class="content">
-                <p class="p-left">Atualmente sou estudante de Analise e Desenvolvimento de Sistemas na Uniasselvi. Tenho um certo conhecimento em HTML e CSS, mas ainda tenho muito o que aprender. Em breve vou começar a minha jornada em Javascript.</p>
-                <p class="p-right">Sou um fanático por jogos, meus favoritos são Skyrim e Tomb Raider. Além dos jogos eu também passo meu tempo livre assistindo filmes, séries, anime e lendo mangás.</p>
+                <p class="p-left">Atualmente estudo Análise e Desenvolvimento de Sistemas na Uniasselvi. Planejo me especializar na área Front-End. <br>Já tenho uma boa base em HTML e CSS, mas ainda tenho muito o que aprender.</p>
+                <p class="p-right">Em breve vou começar a me aventurar em Javascript e Bootstrap. <br> No meu tempo livre jogo videogame, assisto filmes, séries, animes e brinco com minhas gatas: Saria e Luna.</p>
             </div>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
+        <!-- Botão para dar scroll top -->
         <div class="top-btn">
             <a href="#top"><i class="fas fa-angle-up fa-3x"></i></a>
         </div>
+
+        <!-- Lista responsiva -->
         <div class="flist">
             <ul class="desktop">
                 <li><a href="mailto:rtonon96@gmail.com"><i class="fas fa-envelope fa-4x"></i></a></li>

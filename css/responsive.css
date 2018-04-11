@@ -440,7 +440,7 @@ and (max-width: 450px) {
 
     /* Sobre */
     #sobre {
-        height: 750px;
+        height: 650px;
     }
 
     .about {
@@ -461,7 +461,7 @@ and (max-width: 450px) {
     
     .content p {
         width: 100%;
-        padding: 30px;
+        padding: 25px;
         font-size: 18px;
     }
     
@@ -474,7 +474,7 @@ and (max-width: 450px) {
     }
     
     .content:after {
-        margin-top: 400px;
+        margin-top: 350px;
         border-top: none;
         border-bottom: 4px solid rgb(238, 202, 0);    
         border-right: 4px solid rgb(238, 202, 0);
