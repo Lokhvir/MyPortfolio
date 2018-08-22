@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
 
     <!-- Font awesome & jQuery-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -19,13 +19,13 @@
         $("a").on('click', function(event) {
           if (this.hash !== "") {
             event.preventDefault();
-      
+
             var hash = this.hash;
-            
+
             $('html, body').animate({
               scrollTop: $(hash).offset().top
             }, 1000, function(){
-         
+
               window.location.hash = hash;
             });
           }
@@ -71,7 +71,7 @@
             </section>
 
             <!-- Segundo projeto -->
-            <section class="box">
+            <section class="box box-border">
                 <div class="box-2">
                     <h3>Google Clone</h3>
                     <p>Continuando no mesmo padrão do outro site, desta vez com a página inicial do Google</p>
@@ -79,6 +79,18 @@
                 <div class="box-img-2">
                     <a class="desktop" href="https://lokhvir.github.io/Google-clone/" target="_blank"><img src="img/google-clone.png" alt=""></a>
                     <a class="smart" href="https://lokhvir.github.io/Google-clone/" target="_blank"><img src="img/google-smart.png" alt=""></a>
+                </div>
+            </section>
+
+            <!-- Terceiro projeto -->
+            <section class="box">
+                <div class="box-1">
+                    <h3>Conversor de Temperatura</h3>
+                    <p>Pequeno conversor que fiz para testar meus conhecimentos em javascript e css linear gradient.</p>
+                </div>
+                <div class="box-img-1">
+                    <a class="desktop" href="https://lokhvir.github.io/Conversor/" target="_blank"><img src="img/conversor.jpg" alt=""></a>
+                    <a class="smart" href="https://lokhvir.github.io/Conversor/" target="_blank"><img src="img/conversor.jpg" alt=""></a>
                 </div>
             </section>
 
@@ -96,8 +108,8 @@
 
             <!-- Classe "content" usada para fazer os colchetes em volta do parágrafo -->
             <div class="content">
-                <p class="p-left">Atualmente estudo Análise e Desenvolvimento de Sistemas na Uniasselvi. Planejo me especializar na área Front-End. <br>Já tenho uma boa base em HTML e CSS, mas ainda tenho muito o que aprender.</p>
-                <p class="p-right">Em breve vou começar a me aventurar em Javascript e Bootstrap. <br> No meu tempo livre jogo videogame, assisto filmes, séries, animes e brinco com minhas gatas: Saria e Luna.</p>
+                <p class="p-left">Atualmente estudo Sistemas para Internet na ULBRA. Planejo me especializar na área Front-End. <br>Tenho bons conhecimentos em HTML, CSS, Bootstrap, SCSS e estou aprendendo JavaScript e jQuery.</p>
+                <p class="p-right">Em breve pretendo estudar uma das tecnologias React/Angular/Vue. <br> No meu tempo livre jogo videogame, assisto filmes, séries, animes e divirto minhas gatas: Saria e Luna.</p>
             </div>
         </section>
     </main>
@@ -126,7 +138,7 @@
                 <li><a href="https://github.com/Lokhvir" target="_blank"><i class="fab fa-github-square fa-4x"></i></a></li>
             </ul>
         </div>
-        <p>Rafael Silva, 2018</p>
+        <p>Rafael Tonon, 2018</p>
     </footer>
 </body>
 </html>
