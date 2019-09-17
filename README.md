@@ -1,16 +1,9 @@
 # Portfolio
 
-I don't really know what I write in this read me file so I'll just put a to do list of things to make the portfolio look better.
+Things on my to do list:
 
-Also, I'ts an amateur portfolio for now but it's what I got.
+- Fix the id targeting of anchors
 
+- Do a english version with a menu button to change language.
 
-Thing on my to do list:
-
-1 - Add images of my cats as a dropdown menu style when hovering over their names.
-
-2 - Fix the id targeting of anchors
-
-3 - Make a english version of it with a menu button to change language.
-
-4 - Add new projects and change the layout.
+- Add new projects and change the layout.
